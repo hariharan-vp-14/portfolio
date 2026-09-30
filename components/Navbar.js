@@ -99,7 +99,7 @@ export default function Navbar() {
             >
               {theme === 'dark' ? <SunMedium className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
-            <a href="mailto:hariharanvp14@gmail.com?subject=Resume%20Request" className="hidden items-center gap-2 rounded-full border border-violet-500/30 bg-violet-500/10 px-3.5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-violet-100 transition hover:border-violet-400 hover:bg-violet-500/20 md:inline-flex">
+            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="hidden items-center gap-2 rounded-full border border-violet-500/30 bg-violet-500/10 px-3.5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-violet-100 transition hover:border-violet-400 hover:bg-violet-500/20 md:inline-flex">
               Resume
               <ArrowUpRight className="h-3.5 w-3.5" />
             </a>
@@ -132,8 +132,8 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-            <a href="mailto:hariharanvp14@gmail.com?subject=Resume%20Request" className="inline-flex items-center justify-center rounded-full border border-violet-500/30 bg-violet-500/10 px-4 py-3 text-sm font-semibold text-violet-100">
-              Request Resume
+            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center rounded-full border border-violet-500/30 bg-violet-500/10 px-4 py-3 text-sm font-semibold text-violet-100">
+              View Resume
             </a>
           </div>
         </motion.div>

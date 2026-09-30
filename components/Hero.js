@@ -54,8 +54,8 @@ export default function Hero() {
                 View My Work
                 <ArrowRight className="h-4 w-4" />
               </a>
-              <a href="mailto:hariharanvp14@gmail.com?subject=Resume%20Request" className="futuristic-button px-6 py-3 text-sm font-semibold text-slate-100">
-                Request Resume
+              <a href="/resume.pdf" target="_blank" rel="noreferrer" className="futuristic-button px-6 py-3 text-sm font-semibold text-slate-100">
+                View Resume
               </a>
               <a href="#contact" className="futuristic-button bg-white/5 px-6 py-3 text-sm font-semibold text-cyan-200">
                 Hire Me
